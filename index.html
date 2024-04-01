@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KWU</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="overflow-x-hidden" style="background-color: #0c111f">
+    <header style="background-color: #0c111f">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid my-4">
+            <img
+              src="assets/img/logo.svg"
+              alt=""
+              width="50"
+              height="50"
+              class="img-fluid"
+            />
+            <a class="navbar-brand text-white" href="#">Agenone</a>
+            <button
+              class="navbar-toggler bg-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto gap-5 mb-5 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white active"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About Us</a>
+                </li>
+              </ul>
+              <button
+                class="btn btn-primary rounded-5 p-2 px-3 text-white"
+                type="submit"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="">
+      <section id="bg-desktop" class="d-none d-sm-block d-md-block d-lg-block">
+        <div class="text-center z-n1 position-absolute top-0 w-100">
+          <img
+            src="assets/img/bg.png"
+            alt="bg"
+            width="2000"
+            height="1500"
+            class="overflow-x-hidden"
+          />
+        </div>
+      </section>
+      <section id="bg-mobile" class="d-block d-sm-none d-md-none d-lg-none">
+        <div class="text-center z-n1 position-absolute top-0 w-100">
+          <img
+            src="assets/img/bg.png"
+            alt="bg"
+            width="375"
+            height="700"
+            class="overflow-x-hidden"
+          />
+        </div>
+      </section>
+      <section id="hero">
+        <div class="container">
+          <div class="container-fluid my-5">
+            <div class="text-center py-2">
+              <span
+                class="text-white bg-white bg-opacity-10 px-3 py-2 rounded-5 fw-lighter"
+                >NUMBER ONE CREATIVE DIGITAL AGENCY
+              </span>
+            </div>
+            <div class="text-center py-2">
+              <h1 class="display-1 text-white fw-semibold py-2 lh-1">
+                <span class="text-primary">Smart Choices</span><br />
+                For Your Business Growth
+              </h1>
+            </div>
+            <div class="text-center py-2">
+              <p class="text-white lh-lg fw-lighter">
+                We're a team of experienced designers, developers,<br />
+                and marketers, passionate about delivering exceptional digital
+                solutions.
+              </p>
+            </div>
+            <div class="text-center py-2">
+              <button class="btn btn-primary rounded-5 p-3 px-4 text-white">
+                Contact Us
+              </button>
+            </div>
+            <section id="hero-desktop">
+              <div class="my-5 d-none d-sm-block d-md-block d-lg-block">
+                <img
+                  src="assets/img/banner.svg"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+            </section>
+            <section id="hero-mobile">
+              <div class="my-5 d-block d-sm-none d-md-none d-lg-none">
+                <img
+                  src="assets/img/banner-mb.svg"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="bg-white">
+          <div class="container">
+            <div class="container-fluid py-5">
+              <div class="text-center mb-4">
+                <h1 class="display-6 fw-bold py-4">
+                  The Services We Offer
+                  <span class="text-primary">For You</span>
+                </h1>
+              </div>
+              <section id="collapse">
+                <table class="mb-4 w-100">
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                        class="bg-body-secondary py-3 px-5 rounded-top-3"
+                      >
+                        <p
+                          class="h5 text-primary"
+                          data-bs-toggle="collapse"
+                          href="#collapseExample"
+                          role="button"
+                          aria-expanded="true"
+                          aria-controls="collapseExample"
+                        >
+                          <span class="me-4">01</span>UI/UX Design
+                        </p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div
+                          class="collapse show bg-body-tertiary py-3 px-5 rounded-bottom-3"
+                          id="collapseExample"
+                        >
+                          <div class="card-body ms-0 ms-md-5 py-2">
+                            <p>
+                              Some placeholder content for the collapse
+                              component. This panel is hidden by default but
+                              revealed when the user activates the relevant
+                              trigger.
+                            </p>
+                            <img
+                              src="assets/img/collapse-1.svg"
+                              class="w-100 text-center rounded-3"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="mb-4 w-100">
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                        class="bg-body-secondary py-3 px-5 rounded-top-3"
+                      >
+                        <p
+                          class="h5 text-dark"
+                          data-bs-toggle="collapse"
+                          href="#collapseExample-2"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample-2"
+                        >
+                          <span class="me-4">02</span>Digital Marketing
+                        </p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div
+                          class="collapse bg-body-tertiary py-3 px-5 rounded-bottom-3"
+                          id="collapseExample-2"
+                        >
+                          <div class="card-body ms-0 ms-md-5 py-2">
+                            <p>
+                              Some placeholder content for the collapse
+                              component. This panel is hidden by default but
+                              revealed when the user activates the relevant
+                              trigger.
+                            </p>
+                            <img
+                              src="assets/img/collapse-1.svg"
+                              class="w-100 text-center rounded-3"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="mb-4 w-100">
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                        class="bg-body-secondary py-3 px-5 rounded-top-3"
+                      >
+                        <p
+                          class="h5 text-dark"
+                          data-bs-toggle="collapse"
+                          href="#collapseExample-3"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample-3"
+                        >
+                          <span class="me-4">03</span>Social Media Management
+                        </p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div
+                          class="collapse bg-body-tertiary py-3 px-5 rounded-bottom-3"
+                          id="collapseExample-3"
+                        >
+                          <div class="card-body ms-0 ms-md-5 py-2">
+                            <p>
+                              Some placeholder content for the collapse
+                              component. This panel is hidden by default but
+                              revealed when the user activates the relevant
+                              trigger.
+                            </p>
+                            <img
+                              src="assets/img/collapse-1.svg"
+                              class="w-100 text-center rounded-3"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="mb-4 w-100">
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                        class="bg-body-secondary py-3 px-5 rounded-top-3"
+                      >
+                        <p
+                          class="h5 text-dark"
+                          data-bs-toggle="collapse"
+                          href="#collapseExample-4"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample-4"
+                        >
+                          <span class="me-4">04</span>Development
+                        </p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div
+                          class="collapse bg-body-tertiary py-3 px-5 rounded-bottom-3"
+                          id="collapseExample-4"
+                        >
+                          <div class="card-body ms-0 ms-md-5 py-2">
+                            <p>
+                              Some placeholder content for the collapse
+                              component. This panel is hidden by default but
+                              revealed when the user activates the relevant
+                              trigger.
+                            </p>
+                            <img
+                              src="assets/img/collapse-1.svg"
+                              class="w-100 text-center rounded-3"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="">
+        <div class="bg-success-subtle z-n1">
+          <div class="container">
+            <div class="container-fluid">
+              <div class="py-5">
+                <div>
+                  <section
+                    id="bg-services-desktop"
+                    class="d-none d-sm-block d-md-block d-lg-block"
+                  >
+                    <div class="position-absolute z-1">
+                      <img
+                        src="assets/img/Circle.png"
+                        width="100"
+                        height="100"
+                        alt="bg"
+                      />
+                    </div>
+                    <div
+                      class="position-absolute z-1 start-50 translate-middle-x"
+                    >
+                      <img
+                        src="assets/img/Ornament.png"
+                        width="700"
+                        height="300"
+                        alt="bg"
+                      />
+                    </div>
+                  </section>
+                  <section
+                    id="bg-services-mobile"
+                    class="d-block d-sm-none d-md-none d-lg-none"
+                  >
+                    <div class="position-absolute z-1">
+                      <img
+                        src="assets/img/Circle.png"
+                        width="100"
+                        height="100"
+                        alt="bg"
+                      />
+                    </div>
+                    <div
+                      class="position-absolute z-1 start-50 translate-middle-x"
+                    >
+                      <img
+                        src="assets/img/Ornament.png"
+                        width="300"
+                        height="700"
+                        alt="bg"
+                      />
+                    </div>
+                  </section>
+                </div>
+                <div>
+                  <h3>
+                    We are passionate about helping businesses grow and succeed
+                    in the digital age. We take pride in our work and strive to
+                    exceed your expectations every time.
+                  </h3>
+                  <section
+                    id="achievement-desktop"
+                    class="d-none d-sm-block d-md-block d-lg-block"
+                  >
+                    <div class="py-4 z-2 text-center">
+                      <img src="assets/img/achievement.svg" alt="" class="w-100" />
+                    </div>
+                  </section>
+                  <section
+                    id="achievement-mobile"
+                    class="d-block d-sm-none d-md-none d-lg-none"
+                  >
+                    <div class="py-4 z-2 text-center">
+                      <img src="assets/img/achievement-mb.svg" alt="" class="w-100" />
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
