@@ -1,0 +1,9 @@
+.btn-primary {
+  --bs-btn-hover-bg: #{shade-color($primary, 10%)} !important;
+  --bs-btn-hover-border-color: #{shade-color($primary, 10%)} !important;
+  --bs-btn-active-color: var($primary) !important;
+  --bs-btn-active-bg: #{shade-color($primary, 25%)} !important;
+  --bs-btn-active-border-color: #{shade-color($primary, 25%)} !important;
+}
+
+@import "../node_modules/bootstrap/scss/buttons";
