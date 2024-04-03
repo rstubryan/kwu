@@ -1,4 +1,9 @@
-$primary: #38C682;
+$primary: #38c682;
+
+body,
+header {
+  background-color: #0c111f !important;
+}
 
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "scss/button";
