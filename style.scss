@@ -1,9 +1,19 @@
 $primary: #38c682;
+$secondary: #0c111f;
 
 body,
 header {
-  background-color: #0c111f !important;
+  background-color: $secondary !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='lightgreen' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: $primary !important;
 }
 
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "scss/button";
+@import "scss/offcanvas";
